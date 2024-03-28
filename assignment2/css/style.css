@@ -1,0 +1,11 @@
+body{
+    background-image: url("https://i.pinimg.com/736x/5e/f8/a2/5ef8a2a34b3b489c95373a48130defcf.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
