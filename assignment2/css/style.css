@@ -9,3 +9,18 @@ h1{
     color: red;
     font-family: Arial, Helvetica, sans-serif;
 }
+.font{
+    font-size: 60px;
+    font-weight: 900;
+    font-variant: small-caps;
+    color: tomato;
+}
+#btn{
+    background-color: red;
+    border-radius: 5px;
+    color:black;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}

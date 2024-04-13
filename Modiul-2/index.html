@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-primary-subtle">
+    <nav class="navbar sticky-top navbar-expand-lg bg-light shadow"data-bs-theme="light">
+      <div class="container-fluid">
+        <button class="navbar-toggler"data-bs-toggle="collapse"data-bs-target="#NaveMenuPanel">
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <a href=""class="navbar-brand">Navbar Brand</a>
+        <div class="collapse navbar-collapse"id="NaveMenuPanel">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a href=""class="nav-link">Home</a>
+
+            </li>
+            <li class="nav-item">
+              <a href=""class="nav-link">Profile</a>
+
+            </li>
+            <li class="nav-item">
+              <a href=""class="nav-link">Contact</a>
+
+            </li>
+            <li class="nav-item">
+              <a href=""class="nav-link">About</a>
+
+            </li>
+          </ul>
+          <div>
+            <form action=""class="d-flex">
+              <input type="text"class="form-control">
+              <button class="btn mx-2 btn-primary">Search</button>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </nav>
+    <div class="container-fluid">
+      <nav>
+        <div class="nav nav-tabs">
+          <button class="nav-link active"data-bs-toggle="tab"data-bs-target="#HomeView">Home</button>
+          <button class="nav-link"data-bs-toggle="tab"data-bs-target="#ProfileView">Profile</button>
+          <button class="nav-link"data-bs-toggle="tab"data-bs-target="#ContactView">Contact</button>
+        </div>
+      </nav>
+        <div class="tab-content">
+         <div class="tab-pane fade show active"id="HomeView">
+          <p>This is home content</p>
+         </div>
+         <div class="tab-pane fade"id="ProfileView">
+          <p>This is Profile view</p>
+         </div>
+         <div class="tab-pane fade"id="ContactView">
+          <p>This is Contact content</p>
+         </div>
+        </div>
+        
+      <div class="row g-5">
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-primary">
+          A
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-warning">
+          B
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-light">C</div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-success">
+          D
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-warning">
+          E
+        </div>
+        <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12 bg-primary">
+          F
+        </div>
+      </div>
+      <div class="col-12">
+        <p class="display-1">A</p>
+        <p class="display-2">A</p>
+        <p class="display-3">A</p>
+        <p class="display-4">A</p>
+        <p class="display-5">A</p>
+        <p class="display-6">A</p>
+      </div>
+      <img
+        src="data:image/jpeg;base64,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"
+        class="w-50 h-25 rounded"
+      />
+      <div class="col-6 p-5">
+        <table class="table table-hover">
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+          </tr>
+          <tr>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+          </tr>
+        </table>
+        <form action="">
+          <label for="" class="form-label">Your First Name:</label>
+          <input type="text" class="form-control" /><br />
+          <input type="text" class="form-control" /><br />
+          <input type="file" class="form-control" /><br />
+          <input type="text" class="form-control" readonly /><br />
+          <input type="text" class="form-control" disabled />
+          <select name="" id="" class="form-select form-select-sm">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+          </select>
+          <input type="range" class="form-range" min="0" max="9" step="3" />
+        </form>
+        <div class="alert alert-primary">My alert</div>
+        <div class="alert alert-danger">My alert</div>
+        <div class="alert alert-success">My alert</div>
+        <div class="alert alert-info">My alert</div>
+
+        <button class="btn btn-primary">Submit</button>
+        <button class="btn btn-outline-success">Submit</button>
+        <button class="btn btn-danger">Submit</button>
+        <button class="btn btn-info">Submit</button>
+        <button class="btn btn-outline-dark">Submit</button>
+
+        <div class="card w-50">
+          <img
+            class="card-img-top"
+            src="https://placehold.co/600x400/000000/FFF"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card Title</h5>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            Country
+          </button>
+          <ul class="dropdown-menu">
+            <li class="dropdown-item">Bangladesh</li>
+            <li class="dropdown-item">India</li>
+            <li class="dropdown-item">Pakistan</li>
+            <li class="dropdown-item">Srilanka</li>
+            <li class="dropdown-item">Nepal</li>
+          </ul>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">Bangladesh</li>
+          <li class="list-group-item">India</li>
+          <li class="list-group-item">Pakistan</li>
+          <li class="list-group-item">Srilanka</li>
+          <li class="list-group-item">Nepal</li>
+        </ul>      
+      </div>
+      <div class="spinner-border text-warning"></div>
+
+      <div class="progress">
+        <div class="progress-bar"style="width: 25%;">25%</div>
+      </div>
+      <p class="placeholder-glow">
+        <span class="placeholder col-6 my-2"></span>
+        <span class="placeholder col-8 my-2"></span>
+        <span class="placeholder col-4 my-2"></span>
+        <span class="placeholder col-10 my-2"></span>
+      </p>
+      <nav>
+        <ul class="pagination">
+          <li class="page-item"><a href="" class="page-link">Prev</a></li>
+          <li class="page-item active"><a href="" class="page-link">1</a></li>
+          <li class="page-item"><a href="" class="page-link">2</a></li>
+          <li class="page-item"><a href="" class="page-link">3</a></li>
+          <li class="page-item"><a href="" class="page-link">Next</a></li>
+        </ul>
+      </nav>
+      <button class="btn btn-primary"data-bs-toggle="offcanvas"data-bs-target="#myid">Click</button>
+        <div class="offcanvas offcanvas-top"tabindex="-1"id="myid">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Title</h5>
+            <button class="btn-close"data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body"></div>
+        </div>
+        <button class="btn btn-primary"data-bs-toggle="modal"data-bs-target="#mymodal">Click</button>
+        <div class="modal"tabindex="-1"id="mymodal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title">Title</h5>
+                <button class="btn-close"data-bs-dismiss="modal"></button>
+
+              </div>
+              <div class="modal-body">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-12">
+                      <img src="https://www.dummyimage.co.uk/600x400/cbcbcb/959595/Dummy%20Image/40"class="w-100">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="modal-footer">
+                <button class="btn btn-danger"data-bs-dismiss="modal">Cancel</button>
+                <button class="btn btn-success">Confirm</button>
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+       
+        
+
+
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="ratio bg-primary ratio-1x1">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
